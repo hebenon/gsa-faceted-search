@@ -1,0 +1,6 @@
+This module lets you add a faceted search menu (a.k.a. search filter) to your Google Search Appliance (GSA). This is done without an external server and just minimal changes to your search front end. You can configure the facets by arbitrary filter criteria that are reflected through [search parameters](http://code.google.com/apis/searchappliance/documentation/60/xml_reference.html#request_parameters) or [special query terms](http://code.google.com/apis/searchappliance/documentation/60/xml_reference.html#SpecialQueryTerms). Usually you would define filters based on names of collections, language or meta tags.
+
+
+![http://gsa-faceted-search.googlecode.com/files/screen-shot-2.gif](http://gsa-faceted-search.googlecode.com/files/screen-shot-2.gif)
+
+**Hint:** This module adds a faceted search menu that is static. If you are interested in a solution that dynamically creates facets based on meta tags within your indexed corpus you should take a look at a project called [parametric](http://code.google.com/p/parametric/).
